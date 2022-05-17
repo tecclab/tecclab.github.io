@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import ContactForm from '../components/ContactForm'
+import styles from '../styles/contact_us.module.css'
 
 const ContactUs: NextPage = () => {
   return (
@@ -13,7 +14,7 @@ const ContactUs: NextPage = () => {
 
       <main>
         <h1>Contact Us</h1>
-        <p>Thank you for your interest in TECC. If you would like to contact us, submit this form, or email tecc.besic@gmail.com and a member of our team will be with you shortly.</p>
+        <p className={styles.center}>Thank you for your interest in TECC. If you would like to contact us, submit this form, or email tecc.besic@gmail.com and a member of our team will be with you shortly.</p>
         <ContactForm />
       </main>
     </div>

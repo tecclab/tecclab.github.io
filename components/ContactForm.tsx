@@ -1,8 +1,6 @@
-import styles from '../styles/ContactForm.module.css'
-
 export default function ContactForm() {
     return (
-        <form className={styles.contactForm} action='https://formspree.io/f/xqkngrgy' method='POST'>
+        <form className='contactForm' action='https://formspree.io/f/xqkngrgy' method='POST'>
             <label>
                 First Name:
                 <input name='firstName' type='text' placeholder='First Name' required />

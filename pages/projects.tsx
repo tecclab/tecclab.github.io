@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Project from '../components/Project'
-import styles from '../styles/projects.module.css'
 
 const Projects: NextPage = () => {
   return (
@@ -15,7 +14,7 @@ const Projects: NextPage = () => {
       <main>
         <h1>Projects</h1>
         <p>Coming soon...</p>
-        <div className={styles.projectGrid}>
+        <div className='projectGrid'>
           <Project href='https://tecclab.org' src='./favicon.ico' alt='TECC' title='TECC'>
             Technology Enhanced Cancer Care
           </Project>

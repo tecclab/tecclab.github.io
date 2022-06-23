@@ -1,5 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Opportunity from "../components/Opportunity";
 
 const Opportunities: NextPage = () => {
   return (
@@ -12,11 +13,32 @@ const Opportunities: NextPage = () => {
 
       <main>
         <h1>Opportunities</h1>
-        <p>There are no work opportunities at this time.</p>
-        <p>Contact Us with the link at the footer of this page if you have any questions.</p>
+        <div className="opportunityGrid">
+          <Opportunity
+            href="https://uva.wd1.myworkdayjobs.com/en-US/UVAJobs/job/Charlottesville-VA/Postdoctoral-Fellowship-in-Data-Science-and-Mobile-Health_R0037543"
+            src="./favicon.ico"
+            alt="Postdoctoral Fellowship in Data Science and Mobile Health"
+          >
+            Postdoctoral Fellowship in Data Science and Mobile Health
+          </Opportunity>
+          <Opportunity
+            href="https://uva.wd1.myworkdayjobs.com/en-US/UVAJobs/job/Charlottesville-VA/Senior-Data-Analyst_R0037546"
+            src="./favicon.ico"
+            alt="Senior Data Analyst"
+          >
+            Senior Data Analyst
+          </Opportunity>
+          <Opportunity
+            href="https://docs.google.com/document/d/1V9XJXWULqSbCyCVM3UTW-OjMbIKuClLV/edit?usp=sharing&ouid=114197689007378729669&rtpof=true&sd=true"
+            src="./favicon.ico"
+            alt="Student Opportunities"
+          >
+            Student Opportunities
+          </Opportunity>
+        </div>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Opportunities
+export default Opportunities;

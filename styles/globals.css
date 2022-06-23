@@ -32,6 +32,7 @@ p a {
 
 .main h1 {
   text-align: center;
+  font-size: 2rem;
 }
 
 .main a:hover {
@@ -217,6 +218,14 @@ p a {
 
   .mobileHide {
     display: none;
+  }
+
+  .project {
+    margin: 0 2rem;
+  }
+
+  .opportunity {
+    margin: 0 2rem;
   }
 }
 

@@ -11,12 +11,31 @@ a {
   text-decoration: none;
 }
 
+p a {
+  color: blue;
+}
+
 * {
   box-sizing: border-box;
 }
 
 .center {
   text-align: center;
+}
+
+.main {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  font-size: 1.2rem;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.main a:hover {
+  color: #e57200;
 }
 
 .contactForm {
@@ -77,42 +96,17 @@ a {
   color: #e57200;
 }
 
-.main {
+.contactUs a {
+  background-color: #e57200;
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  padding: 0.2rem 0.4rem;
+  color: black;
+}
+
+.contactUs a:hover {
   background-color: white;
   color: black;
-  min-height: 100vh;
-}
-
-.main h1 {
-  text-align: center;
-}
-
-.main a:hover {
-  color: #e57200;
-}
-
-/* if mobile */
-@media (max-aspect-ratio: 1/1), (aspect-ratio: 1/1) {
-  .main {
-    margin: 0 2rem;
-    font-size: 1rem;
-  }
-
-  .main a {
-    font-size: 1.2rem;
-  }
-}
-
-/* if desktop */
-@media (min-aspect-ratio: 1/1) {
-  .main {
-    margin: 0 8rem;
-    font-size: 1.2rem;
-  }
-
-  .main a {
-    font-size: 1.4rem;
-  }
 }
 
 .navbar {
@@ -131,49 +125,15 @@ a {
   color: #e57200;
 }
 
-/* if mobile */
-@media (max-aspect-ratio: 1/1), (aspect-ratio: 1/1) {
-  .navbar {
-    text-align: center;
-  }
-  .navLogo img {
-    height: 3.5rem;
-    margin-top: 0.5rem;
-  }
-  .navLinks {
-    display: block;
-    padding: 0 1rem;
-    font-size: 1rem;
-  }
-  .navLinks a {
-    padding: 0 0.2rem;
-  }
-  .mobileHide {
-    display: none;
-  }
+.navLogo img {
+  background-color: #e57200;
+  padding: 0.4rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
 }
 
-/* if desktop */
-@media (min-aspect-ratio: 1/1) {
-  .navbar {
-    width: 100%;
-    min-height: 6.5rem;
-    display: inline-block;
-  }
-  .navLogo img {
-    height: 5rem;
-    margin-left: 2rem;
-    margin-top: 0.75rem;
-  }
-  .navLinks {
-    position: relative;
-    float: right;
-    padding: 1.6rem 1.2rem;
-    font-size: 1.8rem;
-  }
-  .navLinks a {
-    padding: 0.5rem 0.4rem 0.5rem;
-  }
+.navLogo img:hover {
+  background-color: white;
 }
 
 .project {
@@ -199,4 +159,72 @@ a {
   margin-bottom: 1rem;
   justify-content: center;
   text-align: center;
+}
+
+/* if mobile */
+@media (max-aspect-ratio: 1/1), (aspect-ratio: 1/1) {
+  .main {
+    margin: 0 2rem;
+  }
+
+  .main a {
+    font-size: 1.2rem;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+
+  .navLogo img {
+    height: 3.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .navLinks {
+    display: block;
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .navLinks a {
+    padding: 0 0.2rem;
+  }
+
+  .mobileHide {
+    display: none;
+  }
+}
+
+/* if desktop */
+@media (min-aspect-ratio: 1/1) {
+  .main {
+    margin: 0 8rem;
+  }
+
+  .main a {
+    font-size: 1.4rem;
+  }
+
+  .navbar {
+    width: 100%;
+    min-height: 6.5rem;
+    display: inline-block;
+  }
+
+  .navLogo img {
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+  }
+
+  .navLinks {
+    position: relative;
+    float: right;
+    padding: 1.6rem 1.2rem;
+    font-size: 1.8rem;
+  }
+
+  .navLinks a {
+    padding: 0.5rem 0.4rem 0.5rem;
+  }
 }

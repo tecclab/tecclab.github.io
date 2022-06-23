@@ -1,5 +1,5 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
+import type { NextPage } from "next";
+import Head from "next/head";
 
 const Home: NextPage = () => {
   return (
@@ -11,19 +11,38 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>What is TECC?</h1>
+        <h1>About the Technology Enhanced Compassionate Care (TECC) Lab</h1>
+        <h2>Our Mission:</h2>
         <p>
-          <b>T</b>echnology <b>E</b>nhanced <b>C</b>ancer <b>C</b>are
+          To conduct innovative, interdisciplinary research that leverages
+          technology to alleviate suffering and enhance equitable access to
+          quality care – for patients, family caregivers, and healthcare
+          providers – in both domestic and international settings. Current focal
+          areas of the TECC lab include improving patient-clinician
+          communication and optimizing safe and effective pain management for
+          patients with advanced-stage cancer.
         </p>
+        <h2>Lead Faculty:</h2>
+        <img src="/favicon.ico" alt="Virginia Lebaron"></img>
+        <h3>(image coming soon)</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi, consectetur voluptatem. Ullam temporibus consequuntur quos tempore iure earum, provident animi deserunt fugit recusandae totam suscipit sapiente veniam laborum aliquam architecto.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur hic reiciendis culpa officiis possimus nobis sed! Similique ratione ullam debitis, iste consequatur omnis praesentium pariatur. Omnis laudantium nisi exercitationem reprehenderit.
+          The TECC lab is directed by{" "}
+          <a
+            href="https://www.nursing.virginia.edu/people/vtl6k/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Virginia LeBaron
+          </a>
+          , Associate Professor of Nursing and the Kluge-Schakat Associate
+          Professor of Compassionate Care. Dr. LeBaron’s clinical background in
+          oncology and palliative care is the catalyst for her passion to
+          improve the lives of patients with serious illness and those who care
+          for them.
         </p>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

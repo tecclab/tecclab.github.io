@@ -23,8 +23,12 @@ const Home: NextPage = () => {
           patients with advanced-stage cancer.
         </p>
         <h2>Lead Faculty:</h2>
-        <img src="/favicon.ico" alt="Virginia Lebaron"></img>
-        <h3>(image coming soon)</h3>
+        <img
+          className="facultyImg"
+          src="/virginia.jpg"
+          alt="Virginia Lebaron"
+        ></img>
+        <h3>Virginia LeBaron</h3>
         <p>
           The TECC lab is directed by{" "}
           <a

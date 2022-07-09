@@ -150,6 +150,8 @@ p a {
   border-radius: 1rem;
   width: 10rem;
   margin-top: 0.5rem;
+  background-color: white;
+  padding: 0.1rem;
 }
 
 .projectGrid {
@@ -185,6 +187,10 @@ p a {
   margin-bottom: 1rem;
   justify-content: center;
   text-align: center;
+}
+
+.facultyImg {
+  height: 20rem;
 }
 
 /* if mobile */

@@ -14,19 +14,19 @@ const Projects: NextPage = () => {
       <main>
         <h1>Projects</h1>
         <div className="projectGrid">
-          <Project href="/projects/besic" src="./favicon.ico" alt="BESI-C">
+          <Project href="/projects/besic" src="./besic.png" alt="BESI-C">
             BESI-C
           </Project>
           <Project
             href="/projects/commsense"
-            src="./favicon.ico"
+            src="./tecclogo.png"
             alt="CommSense"
           >
             CommSense
           </Project>
           <Project
             href="/projects/napcare"
-            src="./favicon.ico"
+            src="./napcare.png"
             alt="NAPCare / UVA Global Collaboration"
           >
             NAPCare / UVA Global Collaboration

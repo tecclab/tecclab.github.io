@@ -35,6 +35,23 @@ const Besic: NextPage = () => {
             Learn more about BESI-C and our study team.
           </a>
         </p>
+        <h2>Publications:</h2>
+        <p>
+          LeBaron, V., Alam, R., Bennett, R., Blackhall, L., Gordon, K., Hayes,
+          J., Homdee, N., Jones, R., Lichti, K., Martinez, Y., Mohammadi, S.,
+          Ogunjirin, E., Patel, N., & Lach, J. (2022).{" "}
+          <a
+            href="https://cancer.jmir.org/2022/3/e36879"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Deploying the Behavioral and Environmental Sensing and Intervention
+            for Cancer (BESI-C)smart health system to support patients and
+            family caregivers in managing pain:Feasibility and acceptability
+            study.
+          </a>{" "}
+          Journal of Internet Medical Research (JMIR) Cancer, 8(3); e36879
+        </p>
       </main>
     </div>
   );

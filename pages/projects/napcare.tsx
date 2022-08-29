@@ -51,17 +51,29 @@ const Napcare: NextPage = () => {
         </p>
         <h2>Publications:</h2>
         <p>
-          A Global Collaboration to Develop and Pilot Test a Mobile Application
-          to Improve Cancer Pain Management in Nepal. (link coming soon)
+          <a
+            href="https://bmcpalliatcare.biomedcentral.com/articles/10.1186/s12904-021-00824-0"
+            target="_blank"
+            rel="noreferrer"
+          >
+            A Survey of Cancer Care Institutions in Nepal to Inform Design of a
+            Pain Management Mobile Application.
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://pubmed.ncbi.nlm.nih.gov/35965597/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            A Global Collaboration to Develop and Pilot Test a Mobile
+            Application to Improve Cancer Pain Management in Nepal.
+          </a>
         </p>
         <p>
           Building a ‘Virtual Library’: Continuing a global collaboration to
           build research capacity in Nepal and other low- and middle-income
-          countries. (link coming soon)
-        </p>
-        <p>
-          A Survey of Cancer Care Institutions in Nepal to Inform Design of a
-          Pain Management Mobile Application. (link coming soon)
+          countries. (In press; link coming soon)
         </p>
       </main>
     </div>

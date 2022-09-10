@@ -19,7 +19,7 @@ const Opportunities: NextPage = () => {
             src="./favicon.ico"
             alt="Postdoctoral Fellowship in Data Science and Mobile Health"
           >
-            Postdoctoral Fellowship in Data Science and Mobile Health
+            Postdoctoral Fellowship in Cancer Health Disparities and Technology
           </Opportunity>
           <Opportunity
             href="https://uva.wd1.myworkdayjobs.com/en-US/UVAJobs/job/Charlottesville-VA/Senior-Data-Analyst_R0037546"

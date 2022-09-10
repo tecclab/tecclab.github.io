@@ -35,7 +35,7 @@ const Commsense: NextPage = () => {
           >
             Exploring the Use of Wearable Sensors and Natural Language
             Processing Technology to Improve Patient-Clinician Communication:
-            Protocol for a Feasibility Study
+            Protocol for a Feasibility Study.
           </a>
         </p>
       </main>

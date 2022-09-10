@@ -148,7 +148,7 @@ p a {
 .project img {
   border: 1px solid black;
   border-radius: 1rem;
-  width: 10rem;
+  height: 10rem;
   margin-top: 0.5rem;
   background-color: white;
   padding: 0.1rem;
@@ -239,10 +239,6 @@ p a {
 @media (min-aspect-ratio: 1/1) {
   .main {
     margin: 0 8rem;
-  }
-
-  .main a {
-    font-size: 1.4rem;
   }
 
   .navbar {

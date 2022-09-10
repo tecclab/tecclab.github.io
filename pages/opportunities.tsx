@@ -22,13 +22,6 @@ const Opportunities: NextPage = () => {
             Postdoctoral Fellowship in Cancer Health Disparities and Technology
           </Opportunity>
           <Opportunity
-            href="https://uva.wd1.myworkdayjobs.com/en-US/UVAJobs/job/Charlottesville-VA/Senior-Data-Analyst_R0037546"
-            src="./favicon.ico"
-            alt="Senior Data Analyst"
-          >
-            Senior Data Analyst
-          </Opportunity>
-          <Opportunity
             href="https://docs.google.com/document/d/1V9XJXWULqSbCyCVM3UTW-OjMbIKuClLV/edit?usp=sharing&ouid=114197689007378729669&rtpof=true&sd=true"
             src="./favicon.ico"
             alt="Student Opportunities"
